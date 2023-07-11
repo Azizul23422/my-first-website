@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My flower shop website</title>
   <link rel="stylesheet" href="styles/blog.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- header section -->
@@ -24,9 +28,9 @@
     <h2 class="section-title">Our Featured Flowers</h2>
     <p class="discription">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
     <div class="flower-container">
-      <div class="flower"><img src="Flower Asset/Rectangle 6.png" alt="">Pink Flower Tree</div>
-      <div class="flower"><img src="Flower Asset/Rectangle 5.png" alt="">Pink Flower Tree</div>
-      <div class="flower"><img src="Flower Asset/Rectangle 4.png" alt="">Pink Flower Tree</div>
+      <img class="flower1" src="Flower Asset/Rectangle 6.png" alt="">
+      <img class="flower2" src="Flower Asset/Rectangle 5.png" alt="">
+      <img class="flower3" src="Flower Asset/Rectangle 4.png" alt="">
     </div>
     <div class="deal">
      <div>
@@ -37,6 +41,7 @@
      <img src="Flower Asset/pngwing 8.png" alt="">
     </div>
   </section>
+  <!-- media sector -->
   <section>
     <div class="media">
       <h2 class="media-title">Instragram</h2>
@@ -47,14 +52,22 @@
       <div><img src="Flower Asset/Rectangle 4.png" alt=""></div>
       <div><img src="Flower Asset/Rectangle 5.png" alt=""></div>
       <div><img src="Flower Asset/Rectangle 6.png" alt=""></div>
-    </div>
-    <div>
-      <img src="" alt="">
-    </div>
+      </div>
+      <div class="email-box">
+          <h2 class="text">Get The Latest Deals</h2>
+          <p>$30 coupon for first shopping</p>
+          <input id="mail" type="text" name="email" placeholder="Enter your email here...">
+          <button class="btn-primary">Subscribe</button>
+      </div>
   </section>
 </main>
-<footer>
-
+<!-- footer section -->
+<footer class="footer">
+  <div>
+    <h1><span class="flower-color">Flower</span>Shop</h1>
+  <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+  <p class="font-color">&copy;2020-2023,FlowerShop.com. All rights reserved</p>
+  </div>
 </footer>
 </body>
 </html>
